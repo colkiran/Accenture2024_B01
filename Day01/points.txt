@@ -1,0 +1,239 @@
+Python
+------
+why python?
+
+Desktop Application - TKinter (python and TK(tool kit)), PyQt, wx, kivy, PySimpleGUI
+
+Web Applications - XML - web services, REST API - JSON, MVC - Flask, Django, FAST API, Pyramid
+
+Mobile Application - Kivy
+
+Testing - Unit test, Pytest, Selenium, Robot framework
+
+Automation - paramiko, Filehandling
+
+Webscrapping - beautiful soup, requests
+
+Data Analytics - Numpy, Pandas, Matplotlib, Seaborn
+
+Data Science -  Numpy, Pandas, Matplotlib, Seaborn
+
+ML - 
+
+DL - 
+
+AI - GenAI
+
+python
+------
+
+version - 2.x and 3.x
+
+changes in syntax, lots of functions added and deprecated(removed)
+
+latest version 3.13 (GIL is removed)
+
+
+Flavours of Python
+------------------
+1. CPython	- currently working on
+
+2. Jython	- a python implementation designed to run on the Java Platform allowing python code to interact with JAVA applications and libraries
+
+3. Iron Python	- python implementation that runs on dotnet framework, allowing Python code to seamlessly integrate with the dotnet ecosystem and access its libraries
+
+IDE
+---
+IDLE - Integration Development Environment
+
+Notpad++
+
+PyCharm - Community Edition (built on Open Source)
+
+VScode - Community Edition
+
+Sublime Text
+
+Jupyter Notebook
+
+Spyder
+
+google collabs
+
+When ever we install python then we get these 
+
+a. Python SDK 
+
+b. Python Shell
+
+c. IDLE
+
+In python there are two operators that are overloaded by default
+
++ = adding numbers or concatenating strings
+
+* = multiplying numbers or print a string n number of types by multiplying it with a number
+
+
+Primary Data types
+------------------
+1. Numbers
+  a. integer
+  b. float
+  c. complex
+2. Strings
+3. Boolean
+
+Numbers
+-------
+long - 23897283472937982347L
+
+from imp import reload 
+
+imp 	- module
+reload  - function
+
+the above imp library is deprecated
+
+from importlib import reload
+
+
+#! - shebang - used to specify the path of python executables
+
+end of the line is the return key value
+
+# - single line comment
+
+Strings stored in python
+-------------------------
+"" or '' - single line strings
+
+"""  """ or ''' ''' - multiple line strings
+
+
+"this is a string"
+
+docstrings are strings written on top of the function definition
+
+python code is enclosed in "" or """ to convert it into a comment
+
+we don't use parenthesis in python 
+
+1. if conditions
+2. for loops
+3. functions
+4. classes
+
+instead we use indentation
+
+Bitwise operators
+-----------------
+OR
+--
+5 - 0101
+3 - 0011
+    ----
+    0111   - 7
+    ----
+
+AND
+---
+5 - 0101
+3 - 0011
+    ----
+    0001   - 1
+    ----
+
+XOR
+---
+5 - 0101
+3 - 0011
+    ----
+    0110  - 6
+    ----
+
+left shift <<
+-------------
+5 - 0101
+  - 1010 - 10
+
+
+8 - 1000
+  - 10000   - 16
+
+
+5 << 2
+
+5 - 0101
+  - 10100   - 20
+
+Right shift >> 
+--------------
+16 >> 1
+16 - 10000
+   - 1000   - 8
+
+5 >> 1
+5 - 0101
+  - 0010  - 2
+
+
+Control Structures and Loops
+-----------------------------
+
+if condition
+
+loops
+-----
+1. for loop
+
+depends on range function
+
+
+2. while loop
+
+----------------------------------------------------------------------------
+solve these problems
+
+1
+23
+456
+78910
+
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+print all prime numbers between 150 and 50 and also print the count of it.
+
+-----------------------------------------------------------------------------
+Strings
+-------
+strings in python are immutable
+
+check if a given string is a palindrome
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

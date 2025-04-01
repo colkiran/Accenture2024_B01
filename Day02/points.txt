@@ -1,0 +1,118 @@
+Data Structures
+---------------
+1. Lists
+2. Dictionary
+3. Tuple
+4. Set
+
+
+Lists
+-----
+lists are similar to arrays
+
+what are arrays?
+
+1. collection homogenous data 
+2. memory allocation is contagious
+
+Lists
+-----
+1. lists are collection of heterogenous data
+2. memory allocation is not contagious
+3. they are ordered collection
+4. they are sub scriptable
+5. they are mutable
+6. they are enclosed in [ ]
+
+l = 1, 2, 3, 4
+
+stored
+------
+3, 4, 1, 2
+
+
+l1 = [1, 2, 3]
+
+l1[3] = 4
+
+print
+------
+print(data, sep="", end="\n")
+
+
+Functions used to manipulate lists
+----------------------------------
+ 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+Dictionary
+----------
+also called associative array
+
+index    =  0    1    2    3    4    5
+elements = 'a', 'b', 'c', 'd', 'e', 'f'
+
+associative_array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+keys   = 0, 1, 2, 3, 4....
+values = 'a', 'b', 'c', 'd', 'e', 'f'
+
+emp = {'empid': 101, 'empname': 'Jack', 'age': 34}
+
+storage  'age': 34, 'empid': 101, 'empname': 'Jack'
+
+Dictionary
+----------
+1. keys in a dictionary is always unique
+2. keys are user defined
+3. its an unordered collection 
+4. they are mutable
+5. they are enclosed in {k1: v1, k2: v2.....} 
+
+
+Functions to manipulate the dictionary
+--------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+print()
+clear()
+copy()
+
+
+Tuple
+-----
+tuples are immutable lists
+
+tuples are enclosed in ( )
+
+
+set
+---
+1. elements of a set is always unique
+2. sets cannot be subscripted
+3. sets are mutable
+4. sets are enclosed in {1, 2, 3, 4, 5.....}
+
+
+list, dictionary, tuple and set
+--------------------------------------------------------------------
+
+Functions
+---------
+def fun():
+   pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
