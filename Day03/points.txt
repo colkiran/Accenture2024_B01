@@ -1,0 +1,121 @@
+Write a recursive call to find
+
+a. factorial of a number
+
+b. Fibonacci series
+
+
+Functions
+---------
+1. pass by value - immutable
+2. pass by reference - mutable
+
+
+Lambdas
+-------
+anonymous function
+single expression
+
+result_of_the_expression = lambda var1, var2...: expression
+
+
+Scope of a variable 
+-------------------
+1. local
+2. global
+3. non local
+
+Closures
+HOF
+Decorator
+
+
+hello
+apple from ooty
+Hi
+---------------------
+mera Bharath mahan
+Oranges from kanpur
+India is great
+
+
+------------------------------------------
+
+adding money into the account
+-----------------------------
+
+50000/-
+
+acno - 23723994098
+name - xyz
+
+update button ->    
+
+def runQuery(fnc):
+   
+   def helper(amt):
+       print("login as super user")
+       fnc()
+       print("logoff as super user")
+   
+   return helper
+
+
+
+def deposit(amt):
+   update query ->
+
+qryRef = runQuery(deposit)   
+qryRef(50000)
+
+
+OOPs
+----
+1. abstraction - hiding the code
+
+2. polymorphism 
+
+3. Inheritance
+
+4. encapsulation
+
+
+
+
+class Engine - 1300 cc:
+   pass
+
+class Chasis - SUV:
+   pass
+
+
+class desire(Engine):
+   pass
+
+class ciaz(Engine):
+   pass
+
+class Brezza(Engine, Chasis):
+   pass
+
+class Ertiga(Engine):
+   pass
+
+
+ATM
+---
+
+class PIN:
+  pass
+
+class OTP(PIN):
+  pass
+
+
+
+
+
+
+
+
+
